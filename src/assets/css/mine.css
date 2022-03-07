@@ -1,0 +1,196 @@
+body {
+  background-color: #f2f2f2;
+}
+.top {
+  width: 7.5rem;
+  height: 0.9rem;
+  background-color: #ff6040;
+  margin: 0 auto;
+}
+.top h3 {
+  opacity: 0.8;
+  font-family: Helvetica;
+  font-size: 0.32rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 0.9rem;
+}
+.wrap {
+  width: 7.5rem;
+  height: 4.2rem;
+  background-image: linear-gradient(180deg, #FF6040 0%, #FF8A80 100%);
+  box-shadow: 0 2px 6px 0 rgba(255, 149, 128, 0.5);
+}
+.wrap .login {
+  width: 7.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .login .left {
+  display: flex;
+  margin-left: 0.2rem;
+}
+.wrap .login .left img {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+}
+.wrap .login .left p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 0.2rem;
+}
+.wrap .login .left p span {
+  font-family: PingFangSC-Semibold;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 18px;
+}
+.wrap .login .left p a {
+  display: inline-block;
+  padding: 0.08rem;
+  border: 0.01rem solid #FFFFFF;
+  border-radius: 1px;
+  font-family: PingFangSC-Regular;
+  font-size: 0.24rem;
+  color: #FFFFFF;
+}
+.wrap .login .right {
+  width: 1.5rem;
+  height: 0.4rem;
+  background: #FFD4CC;
+  border: 0 solid #FFFFFF;
+  border-radius: 0.2rem 0 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.wrap .login .right span {
+  font-size: 0.24rem;
+  font-family: PingFangSC-Regular;
+  color: #FF6243;
+}
+.wrap .menu {
+  width: 7.5rem;
+  height: 1.3rem;
+  display: flex;
+  justify-content: center;
+}
+.wrap .menu ul {
+  width: 7rem;
+  height: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap .menu ul li {
+  text-align: center;
+}
+.wrap .menu ul li p {
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 0.5rem;
+}
+.wrap .menu ul li span {
+  font-size: 0.24rem;
+  color: #fff;
+}
+.wrap .order {
+  width: 7.1rem;
+  height: 2rem;
+  background-color: #fff;
+  border-radius: 0.08rem;
+  margin: 0 auto;
+}
+.wrap .order .title {
+  width: 7.1rem;
+  height: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .order .title p {
+  font-size: 0.32rem;
+  color: #333333;
+  font-weight: bold;
+  margin-left: 0.15rem;
+}
+.wrap .order .title a {
+  font-size: 0.24rem;
+  color: #FF6040;
+  margin-right: 0.15rem;
+}
+.wrap .order .content {
+  width: 7.1rem;
+  height: 1.3rem;
+}
+.wrap .order .content ul {
+  width: 7.1rem;
+  height: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap .order .content ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.wrap .order .content ul li img {
+  width: 0.64rem;
+  height: 0.64rem;
+}
+.wrap .order .content ul li span {
+  font-size: 0.24rem;
+  color: #333333;
+  line-height: 0.3rem;
+}
+.list_content {
+  width: 7.5rem;
+  height: 4rem;
+  background-color: #fff;
+  margin-top: 0.8rem;
+}
+.list_content ul {
+  width: 7.5rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.list_content ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.list_content ul li p {
+  display: flex;
+  font-size: 0.28rem;
+  color: #333333;
+  margin-left: 0.15rem;
+}
+.list_content ul li p img {
+  width: 0.32rem;
+  height: 0.32rem;
+  margin-right: 0.1rem;
+}
+.list_content ul li span {
+  color: #666666;
+  margin-right: 0.15rem;
+  font-size: 0.24rem;
+}
+.tuichu {
+  width: 7.5rem;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 0.2rem;
+}

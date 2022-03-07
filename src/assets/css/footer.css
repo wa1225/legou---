@@ -1,0 +1,28 @@
+.footer {
+  width: 7.5rem;
+  height: 1rem;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer div {
+  width: 1rem;
+  height: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  color: #999;
+}
+.footer div span {
+  font-size: 0.4rem;
+}
+.footer div i {
+  font-size: 0.24rem;
+}
+.footer .active {
+  color: #FF6040;
+}

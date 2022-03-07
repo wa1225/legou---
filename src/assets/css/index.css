@@ -1,0 +1,422 @@
+.top {
+  width: 7.5rem;
+  height: 0.88rem;
+  background-color: #FF6040;
+  margin: 0 auto;
+}
+.top h3 {
+  opacity: 0.8;
+  font-family: Helvetica;
+  font-size: 0.34rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 0.88rem;
+}
+.wrap {
+  width: 7.5rem;
+  height: 1.6rem;
+  margin: 0 auto;
+  background-image: linear-gradient(180deg, #FF6040 0%, #FF8A80 100%);
+  box-shadow: 0 2px 6px 0 rgba(255, 149, 128, 0.5);
+}
+.wrap .wrap_top {
+  width: 7.5rem;
+  height: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.wrap .wrap_top .position span {
+  font-size: 0.6rem;
+  color: #fff;
+  line-height: 0.8rem;
+}
+.wrap .wrap_top .logo {
+  width: 1.8rem;
+  height: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.wrap .wrap_top .logo img {
+  width: 100%;
+  height: 0.44rem;
+}
+.wrap .wrap_top .search {
+  width: 3.4rem;
+  height: 0.64rem;
+  background-color: #fff !important;
+  border: 1px solid #E6E6E6;
+  border-radius: 0.1rem;
+  display: flex;
+}
+.wrap .wrap_top .search span {
+  width: 0.64rem;
+  height: 0.64rem;
+  display: inline-block;
+  font-size: 0.36rem;
+  line-height: 0.64rem;
+  text-align: center;
+  color: #999;
+}
+.wrap .wrap_top .search input {
+  font-size: 0.2rem;
+}
+.wrap .wrap_top .bus span {
+  font-size: 0.6rem;
+  color: #fff;
+  line-height: 0.8rem;
+}
+.wrap .nav_bottom {
+  width: 7.5rem;
+  height: 0.8rem;
+}
+.wrap .nav_bottom ul {
+  width: 7.5rem;
+  height: 0.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+.wrap .nav_bottom ul li span {
+  color: #FFF3F2;
+  font-size: 0.3rem;
+}
+.wrap .nav_bottom ul li a {
+  font-size: 0.28rem;
+  color: #FFF3F2;
+  text-align: center;
+  line-height: 0.8rem;
+}
+.banner {
+  width: 7.5rem;
+  height: 4rem;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.banner ul {
+  width: 6.7rem;
+  height: 3.9rem;
+  box-shadow: 0 5px 5px 0 rgba(166, 223, 204, 0.2);
+}
+.banner ul li {
+  width: 6.7rem;
+  height: 3.9rem;
+}
+.banner ul li img {
+  width: 100%;
+  height: 100%;
+}
+.banner p {
+  width: 6.7rem;
+  height: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0.2rem;
+}
+.banner p .active {
+  width: 0.4rem;
+  border-radius: 40%;
+  background-color: #fff;
+}
+.banner p span {
+  margin-left: 0.1rem;
+  display: inline-block;
+  width: 0.2rem;
+  height: 0.2rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+}
+.guide {
+  width: 7.5rem;
+  height: 1.8rem;
+  margin: 0 auto;
+}
+.guide ul {
+  width: 7.5rem;
+  height: 1.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.guide ul li a {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.guide ul li a img {
+  width: 0.64rem;
+  height: 0.64rem;
+  text-align: center;
+}
+.guide ul li a span {
+  font-size: 0.2rem;
+  margin-top: 0.15rem;
+}
+.activity {
+  width: 7.5rem;
+  height: 4rem;
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activity .a_left {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-image: url(../images/big.png);
+  background-size: 100% 100%;
+}
+.activity .a_left .title {
+  width: 3.5rem;
+  height: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.activity .a_left .title h3 {
+  font-family: 'PingFangSC-Semibold';
+  font-size: 0.32rem;
+  color: #85A642;
+  line-height: 0.8rem;
+  font-weight: bold;
+  margin-left: 0.2rem;
+}
+.activity .a_left .title a {
+  font-family: 'PingFangSC-Light';
+  font-size: 0.2rem;
+  color: #333333;
+  line-height: 0.8rem;
+  margin-right: 0.2rem;
+  font-weight: 600;
+}
+.activity .a_left .p1 {
+  font-family: PingFangSC-Light;
+  font-size: 0.2rem;
+  color: #B1CC7A;
+  line-height: 0.2rem;
+  margin-top: 0.1rem;
+  margin-left: 0.2rem;
+}
+.activity .a_left .p2 {
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+.activity .a_left .p2 span {
+  font-family: DINCondensed-Bold;
+  display: inline-block;
+  background-color: #85A642;
+  text-align: center;
+  font-size: 0.28rem;
+  color: #FFFFFF;
+  width: 0.4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-weight: 600;
+}
+.activity .a_left .p2 i {
+  color: #999;
+}
+.activity .a_right {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.activity .a_right .b_top {
+  width: 3.5rem;
+  height: 1.7rem;
+  background-color: #FF6040;
+  background-image: url(../images/small.png);
+  background-size: 100% 100%;
+}
+.activity .a_right .b_top h3 {
+  font-family: 'PingFangSC-Semibold';
+  font-size: 0.32rem;
+  color: #FF6040;
+  line-height: 0.8rem;
+  font-weight: 600;
+  margin-left: 0.2rem;
+}
+.activity .a_right .b_top .p1 {
+  font-family: PingFangSC-Light;
+  font-size: 0.2rem;
+  color: #FF9580;
+  line-height: 0.2rem;
+  margin-left: 0.2rem;
+}
+.activity .a_right .b_top .p2 {
+  text-align: center;
+  width: 1.4rem;
+  height: 0.4rem;
+  background-image: linear-gradient(180deg, #FF6040 0%, #FF9F80 100%);
+  border-radius: 0.1rem 0.24rem 0.24rem 0.1rem;
+  font-family: PingFangSC-Medium;
+  font-size: 0.2rem;
+  color: #FFFFFF;
+  line-height: 0.4rem;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+.activity .a_right .b_bottom {
+  width: 3.5rem;
+  height: 1.7rem;
+  background-color: #FF6040;
+  background-image: url(../images/02.png);
+  background-size: 100% 100%;
+}
+.activity .a_right .b_bottom h3 {
+  font-family: 'PingFangSC-Semibold';
+  font-size: 0.32rem;
+  color: #AF40FF;
+  line-height: 0.8rem;
+  font-weight: 600;
+  margin-left: 0.2rem;
+}
+.activity .a_right .b_bottom .p1 {
+  font-family: PingFangSC-Light;
+  font-size: 0.2rem;
+  color: #CA80FF;
+  line-height: 0.2rem;
+  margin-left: 0.2rem;
+}
+.activity .a_right .b_bottom .p2 {
+  text-align: center;
+  width: 1.4rem;
+  height: 0.4rem;
+  background-image: linear-gradient(180deg, #AF40FF 0%, #F58CFF 100%);
+  border-radius: 0.1rem 0.24rem 0.24rem 0.1rem;
+  font-family: PingFangSC-Medium;
+  font-size: 0.2rem;
+  color: #FFFFFF;
+  line-height: 0.4rem;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+.daohang {
+  width: 7.5rem;
+  height: 1rem;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.daohang .daohang_content {
+  width: 6rem;
+  height: 0.6rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem #999;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+.daohang .daohang_content ul {
+  width: 6rem;
+  height: 0.6rem;
+  display: flex;
+}
+.daohang .daohang_content ul li {
+  width: 2rem;
+  height: 0.6rem;
+  text-align: center;
+  font-size: 0.2rem;
+  line-height: 0.6rem;
+}
+.daohang .daohang_content ul li a {
+  display: block;
+  width: 2rem;
+  height: 0.6rem;
+  text-align: center;
+  font-size: 0.2rem;
+  line-height: 0.6rem;
+}
+.commodity {
+  width: 7.5rem;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.commodity .commodity_content {
+  width: 7rem;
+  height: 3rem;
+  display: flex;
+  box-shadow: 0px 0px 0.1rem #ebebeb;
+  background-color: #fff;
+}
+.commodity .commodity_content .com_left {
+  width: 2.8rem;
+  height: 3rem;
+}
+.commodity .commodity_content .com_left img {
+  width: 2.05rem;
+  height: 2.2rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+.commodity .commodity_content .com_right {
+  width: 4.2rem;
+  height: 3rem;
+}
+.commodity .commodity_content .com_right .txt1 {
+  width: 4.2rem;
+  font-size: 0.3rem;
+  margin-top: 0.4rem;
+}
+.commodity .commodity_content .com_right .txt2 {
+  width: 4.2rem;
+  font-size: 0.2rem;
+  margin-top: 0.3rem;
+  color: #f23e4a;
+}
+.commodity .commodity_content .com_right .txt2 span {
+  font-size: 0.25rem;
+}
+.commodity .commodity_content .com_right .txt3 {
+  width: 4.2rem;
+  font-size: 0.2rem;
+  margin-top: 0.35rem;
+  color: #9a9a9a;
+}
+.commodity .commodity_content .com_right .txt4 {
+  width: 1.65rem;
+  height: 0.5rem;
+  background-color: #f26b11;
+  font-size: 0.25rem;
+  margin-top: 0.3rem;
+  line-height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.1rem;
+}
+.van-swipe {
+  width: 6.7rem;
+  height: 4rem;
+  margin: 0 auto;
+  margin-top: 0.1rem;
+  border-radius: 0.1rem;
+}
+.van-swipe-item {
+  width: 6.7rem;
+  height: 3.9rem;
+  border-radius: 0.1rem;
+}
+.van-swipe img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.1rem;
+}
+.active {
+  background-color: #f26b11;
+}

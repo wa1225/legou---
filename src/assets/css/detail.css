@@ -1,0 +1,109 @@
+body {
+  background-color: #fff;
+}
+.van-nav-bar {
+  background: #FF6040;
+}
+.van-tabs {
+  width: 7.5rem;
+  height: 0.7rem;
+  background-image: linear-gradient(180deg, #FF6040 0%, #FF8A80 100%);
+  box-shadow: 0 2px 6px 0 rgba(255, 149, 128, 0.5);
+}
+.imgurl {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.price {
+  width: 7.5rem;
+  height: 0.8rem;
+  background-color: #fff;
+  display: flex;
+}
+.price .p1 {
+  color: #FF6040;
+  font-size: 0.4rem;
+  line-height: 0.8rem;
+  font-weight: 600;
+  margin-left: 0.1rem;
+}
+.price .p2 {
+  font-size: 0.28rem;
+  line-height: 0.8rem;
+  color: #ccc;
+  margin-left: 0.1rem;
+}
+.title {
+  width: 7.5rem;
+  height: 0.4rem;
+  background-color: #fff;
+}
+.title h3 {
+  margin-left: 0.1rem;
+  font-size: 0.4rem;
+  color: #333333;
+  font-family: '楷体';
+  font-weight: 600;
+  line-height: 0.4rem;
+}
+.tag {
+  width: 7.5rem;
+  height: 0.6rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.tag .van-tag {
+  margin-left: 0.1rem;
+}
+.num {
+  width: 7.5rem;
+  height: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #fff;
+}
+.num p {
+  margin-left: 0.1rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+.num .van-stepper {
+  margin-right: 0.1rem;
+  margin-top: 0.24rem;
+}
+.guige {
+  width: 7.5rem;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 0.2rem;
+}
+.guige h3 {
+  margin-left: 0.1rem;
+  font-weight: 600;
+  line-height: 0.6rem;
+}
+.guige p {
+  width: 7.5rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  margin-left: 0.1rem;
+  font-weight: 600;
+}
+.guige p .van-tag {
+  margin-left: 0.1rem;
+  padding: 0.1rem;
+}
+.xiangqing {
+  background-color: #fff;
+}
+.xiangqing p {
+  width: 7.5rem;
+  height: 1rem;
+  line-height: 1rem;
+  color: #333333;
+  font-size: 0.35rem;
+  font-weight: 600;
+  margin-left: 0.1rem;
+}

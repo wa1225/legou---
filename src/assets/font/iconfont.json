@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6205438",
+      "name": "商家",
+      "font_class": "shangjia",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "7958014",
+      "name": "上下箭头",
+      "font_class": "icon_shangxiajiantou",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "13196103",
+      "name": "筛 选",
+      "font_class": "-filter",
+      "unicode": "e50e",
+      "unicode_decimal": 58638
+    },
+    {
+      "icon_id": "17082316",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    },
+    {
+      "icon_id": "17366204",
+      "name": "分类",
+      "font_class": "category",
+      "unicode": "e505",
+      "unicode_decimal": 58629
+    },
+    {
+      "icon_id": "17717619",
+      "name": "搜索--1",
+      "font_class": "xingtaiduICON_sousuo--",
+      "unicode": "e50b",
+      "unicode_decimal": 58635
+    },
+    {
+      "icon_id": "19178090",
+      "name": "首页-选中",
+      "font_class": "yemian-copy-copy",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "19537310",
+      "name": "个人中心 - 中",
+      "font_class": "gerenzhongxin-zhong",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "20337813",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    },
+    {
+      "icon_id": "20773092",
+      "name": "列表切换/文字列表",
+      "font_class": "biaogebeifen",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    }
+  ]
+}

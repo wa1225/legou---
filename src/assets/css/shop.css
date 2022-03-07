@@ -1,0 +1,252 @@
+body {
+  background-color: #f2f2f2;
+}
+.top {
+  width: 7.5rem;
+  height: 0.8rem;
+  background-color: #ff6040;
+  margin: 0 auto;
+}
+.top h3 {
+  opacity: 0.8;
+  font-family: Helvetica;
+  font-size: 0.32rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 0.8rem;
+}
+.nav {
+  width: 7.5rem;
+  height: 0.8rem;
+  background-color: #ff6040;
+  margin: 0 auto;
+}
+.nav ul {
+  width: 7.5rem;
+  height: 0.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+.nav ul .active {
+  font-size: 0.32rem;
+  margin-left: 0.3rem;
+}
+.nav ul li {
+  width: 1.5rem;
+  height: 0.6rem;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  font-size: 0.24rem;
+  color: #FFF3F2;
+  line-height: 0.8rem;
+}
+.title {
+  width: 7.5rem;
+  height: 0.8rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.title .left {
+  display: flex;
+  margin-left: 0.2rem;
+}
+.title .left input {
+  color: #999999;
+  margin-top: 0.2rem;
+}
+.title .left p {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 0.32rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+  margin-left: 0.2rem;
+}
+.title .right {
+  margin-right: 0.2rem;
+}
+.title .right span {
+  font-family: PingFangSC-Regular;
+  font-size: 0.24rem;
+  color: #333333;
+  line-height: 0.8rem;
+  font-weight: 600;
+}
+.title .right a {
+  color: #ff7559;
+  font-size: 0.24rem;
+}
+.list {
+  width: 7.5rem;
+  height: 8rem;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  margin-bottom: 5rem;
+}
+.list ul {
+  width: 7.5rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.list ul li {
+  width: 7.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.list ul li .left {
+  display: flex;
+  margin-left: 0.2rem;
+}
+.list ul li .left input {
+  color: #999999;
+  margin-top: 1rem;
+}
+.list ul li .left img {
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-left: 0.2rem;
+  margin-top: 0.15rem;
+}
+.list ul li .right {
+  margin-left: 0.4rem;
+}
+.list ul li .right h3 {
+  font-size: 0.3rem;
+  color: #333333;
+  font-weight: 600;
+  font-family: PingFangSC-Regular;
+  margin-top: 0.1rem;
+  line-height: 0.4rem;
+}
+.list ul li .right p {
+  font-family: PingFangSC-Regular;
+  font-size: 0.25rem;
+  color: #999999;
+  line-height: 0.4rem;
+}
+.list ul li .right a {
+  font-family: PingFangSC-Regular;
+  color: #333333;
+  margin-top: 0.1rem;
+  width: 2rem;
+  height: 0.35rem;
+  display: block;
+  background-color: #f2f2f2;
+  font-size: 0.25rem;
+  line-height: 0.35rem;
+  text-align: center;
+}
+.list ul li .right .sp1 {
+  font-size: 0.24rem;
+  color: #ff6040;
+  margin-top: 0.1rem;
+  display: block;
+}
+.list ul li .right .f1 {
+  font-size: 0.4rem;
+  color: #ff6040;
+  line-height: 0.7rem;
+}
+.list ul li .right .f1 span {
+  font-size: 0.2rem;
+}
+.list ul li .right .f2 {
+  font-size: 0.2rem;
+  color: #999;
+  text-decoration: line-through;
+}
+.list ul li .right .btn1 {
+  font-size: 0.5rem;
+  height: 0.4rem;
+  width: 0.6rem;
+  line-height: 0.3rem;
+  font-weight: 600;
+  outline: none;
+}
+.list ul li .right .btn2 {
+  width: 0.6rem;
+  font-size: 0.4rem;
+  height: 0.4rem;
+  line-height: 0.3rem;
+  font-weight: 600;
+  outline: none;
+}
+.list ul li .right i {
+  width: 1rem;
+  height: 0.4rem;
+  display: inline-block;
+  text-align: center;
+  background-color: #F2F2F2;
+}
+.foot {
+  width: 7.5rem;
+  height: 1rem;
+  background-color: #fff;
+  position: fixed;
+  bottom: 1.01rem;
+  display: flex;
+  justify-content: space-between;
+}
+.foot .left {
+  display: flex;
+  margin-left: 0.2rem;
+}
+.foot .left input {
+  color: #999999;
+  margin-top: 0.3rem;
+}
+.foot .left p {
+  color: #333;
+  font-family: PingFangSC-Semibold;
+  font-size: 0.32rem;
+  font-weight: bold;
+  line-height: 1rem;
+  margin-left: 0.2rem;
+}
+.foot .p1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1.5rem;
+}
+.foot .p1 span {
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+}
+.foot .p1 i {
+  font-size: 0.16rem;
+  line-height: 0.4rem;
+  color: #999;
+}
+.foot .p2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foot .p2 span {
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  color: #ff6040;
+}
+.foot .p2 i {
+  font-size: 0.16rem;
+  line-height: 0.4rem;
+  color: #999;
+}
+.foot button {
+  width: 2rem;
+  height: 1rem;
+  background-color: #ff6040;
+  color: #fff;
+  outline: none;
+}
+.van-button--danger {
+  height: 100%;
+}
